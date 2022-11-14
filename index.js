@@ -109,7 +109,7 @@ ppgroup = await kayla.profilePictureUrl(anu.id, 'image')
 ppgroup = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gambar-Foto-Profil-Kosong-Lucu-Tergokil-.jpg'
 }
 if (anu.action == 'add') {
-kayla.sendMessage(anu.id, { text : `*Welcome @${num.split("@")[0]}*\n\nIntro dulu ya \nNama : \nUmur :\nGender : \nAsal :\n\nSemoga Betah dan jangan lupa isi\ndan ikuti Rules Group`, mentions : [num]},{ quoted : {
+kayla.sendMessage(anu.id, { text : `Hello Sis @${num.split("@")[0]}, Welcome To The Group ${metadata.subject}, I Hope You Enjoy It, Sis`, mentions : [num]},{ quoted : {
 key: {
 fromMe: false, 
 participant: `0@s.whatsapp.net`, 
@@ -138,7 +138,7 @@ participant: `0@s.whatsapp.net`,
 "selectableOptionsCount": 5
 }}}})
 } else if (anu.action == 'remove') {
-kayla.sendMessage(anu.id, { text : `Selamat Tinggal  @${num.split("@")[0]}, Semoga Tenang Di Alam Sana`, mentions : [num]},{ quoted : {
+kayla.sendMessage(anu.id, { text : `Goodbye Sis @${num.split("@")[0]}, I Hope You Feel At Home In Nature`, mentions : [num]},{ quoted : {
 key: {
 fromMe: false, 
 participant: `0@s.whatsapp.net`, 
